@@ -327,16 +327,16 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-    .sobre{
+    .sobre {
         flex-direction: column;
     }
 
-    .sobre-valores{
+    .sobre-valores {
         text-align: center;
         width: 100%;
     }
 
-    .titulo_valores{
+    .titulo_valores {
         text-align: center;
         line-height: 1;
     }
@@ -356,22 +356,69 @@ footer {
         display: none;
     }
 
-    .imagens-petz{
+    .imagens-petz {
         width: 35%;
     }
 
-    .anuncio-petz{
+    .anuncio-petz {
         width: 65%;
     }
 
-    .titulo_perfil{
+    .titulo_perfil {
         width: 75%;
         line-height: 1;
     }
 
-    .card-perfil{
+    .card-perfil {
         width: 45%;
     }
+
+    .conteudo-footer {
+        flex-direction: column;
+    }
+
+    .redes-sociais {
+        margin: 15px 0 15px 0;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+
+    .imagens-petz {
+        display: none;
+    }
+
+    .anuncio-petz {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .painel-principal {
+        width: 100%;
+        background-image: linear-gradient(#ffffff70, #ffffff4a), url(../img/cachorro-oculos.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-bottom: 0;
+    }
+
+    .pilar{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pilar>p{
+        padding: 0 0 0 10px;
+        text-align: left;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+   
+
+
+
 
 
 
