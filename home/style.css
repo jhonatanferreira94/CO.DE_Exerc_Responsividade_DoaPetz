@@ -390,36 +390,124 @@ footer {
     }
 
     .anuncio-petz {
-        width: 100%;
+        width: 80%;
         text-align: center;
         align-items: center;
     }
 
     .painel-principal {
+        justify-content: center;
+        padding: 0;
         width: 100%;
-        background-image: linear-gradient(#ffffff70, #ffffff4a), url(../img/cachorro-oculos.jpg) ;
+        background-image: linear-gradient(#ffffff98, #ffffff98), url(../img/cachorro-oculos.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         margin-bottom: 0;
     }
 
-    .pilar{
+    .pilar {
         display: flex;
         flex-direction: row;
     }
 
-    .pilar>p{
+    .pilar>p {
         padding: 0 0 0 10px;
         text-align: left;
         margin: 0;
         line-height: 1.2;
     }
 
-   
+}
+
+@media screen and (max-width: 700px) {
+    
+}
 
 
+@media screen and (max-width: 563px) {
 
+    .anuncio-petz {
+        justify-content: center;
 
+    }
+
+    .anuncio-petz>h2 {
+        font-size: 30px;
+        color: black;
+    }
+
+    .anuncio-petz>p {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 15px 0 15px 0;
+        color: black;
+    }
+
+    .botao_principal {
+        padding: 15px 25px;
+
+    }
+
+    .tipos-perfil>h2 {
+        font-size: 30px;
+        color: black;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-perfil {
+        width: 90%;
+        align-items: center;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .valores-topicos {
+        flex-direction: column;
+    }
+
+    .linha-valores {
+        padding: 0;
+
+    }
+
+    .pilar {
+        flex-direction: column;
+    }
+
+    .pilar>p {
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+  
+    
+    .sobre{
+        margin: auto;
+        width: 80%;
+        padding: 30px 0 0 0;
+    }
+
+    .sobre-valores>h2 {
+        font-size: 30px;
+    }
+
+    .sobre-valores>p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .descricao_card {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .redes-sociais>p {
+        display: none;
+    }
 
 
 }
