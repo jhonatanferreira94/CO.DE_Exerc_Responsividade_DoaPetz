@@ -25,6 +25,10 @@
     --fonte2: 'Raleway', sans-serif;
 }
 
+.menu_barras {
+    display: none;
+}
+
 html {
     background-color: var(--background-color);
 }
@@ -385,7 +389,7 @@ footer {
 
 @media screen and (max-width: 750px) {
 
-    p{
+    p {
         font-size: 20px;
     }
 
@@ -402,8 +406,9 @@ footer {
     .painel-principal {
         justify-content: center;
         padding: 50px;
+        height: 100%;
         width: 100%;
-        background-image: linear-gradient(#ffffff98, #ffffff98), url(../img/cachorro-oculos.jpg);
+        background-image: linear-gradient(#ffffffc5, #ffffffbc), url(../img/cachorro-oculos.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         margin-bottom: 0;
@@ -426,7 +431,35 @@ footer {
 @media screen and (max-width: 700px) {
 
 
-    
+    .menu_barras {
+        display: initial;
+    }
+
+    .menu_barras img {
+        width: 40px;
+        fill: #FBFBFB;
+    }
+
+    .posicionamento_header {
+        position: relative;
+    }
+
+    .posicionamento_header nav {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        background-color: #FBFBFB;
+        z-index: 1;
+        padding: 30px 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    header nav a {
+        margin: 15px 0;
+    }
+
 }
 
 
@@ -489,9 +522,9 @@ footer {
         padding: 10px 0 0 0;
     }
 
-  
-    
-    .sobre{
+
+
+    .sobre {
         margin: auto;
         width: 80%;
         padding: 30px 0 0 0;
@@ -514,6 +547,89 @@ footer {
     .redes-sociais>p {
         display: none;
     }
+
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .painel-principal {
+        padding: 0;
+    }
+
+    .anuncio-petz {
+        height: 100%;
+    }
+
+    .anuncio-petz>p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .anuncio-petz>h2 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+
+    .botao_principal {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-bottom: 40px;
+    }
+
+
+    .tipos-perfil>h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .geral_card>p {
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+
+    .geral_card>a {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .card-perfil>img {
+        width: 70%;
+    }
+
+
+    .card-perfil {
+        height: 350px;
+    }
+
+    .sobre-valores>h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .sobre-valores>p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .pilar p {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .rodape {
+        width: 100%;
+    }
+
+
+    .copright>p {
+        font-size: 15px;
+    }
+
+
+
 
 
 }

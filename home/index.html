@@ -11,18 +11,30 @@
   <link href="../fontawesome/css/solid.css" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+
+  <script src="../js/script.js" defer></script>
+
 </head>
 
 <body>
-  <header class="cabecalho">
+  <header class="cabecalho posicionamento_header">
+
+
     <div class="menu">
       <a href="#"><img class="logomarca" src="../img/doapetz.png" alt="Logomarca da companhia Doa-Petz" /></a>
-      <nav class="links-navegacao">
-        <a class="navegacao entrar" href>Entrar</a>
-        <a class="navegacao cadastrar" href>Cadastrar-se</a>
+
+      <a id="menu_barras" aria-label="abrir menu" aria-controls="menu_links" aria-expanded="false" aria-haspopup="true"
+        class="menu_barras" href="#" onclick="mostrarMenu()">
+        <img src="../img/MENU.svg" alt="">
+      </a>
+      <nav class="links-navegacao" id="menu_links">
+        <a class="navegacao entrar" href="#">Entrar</a>
+        <a class="navegacao cadastrar" href="#">Cadastrar-se</a>
       </nav>
+
     </div>
-    </nav>
+
+
   </header>
 
   <main class="corpo">
